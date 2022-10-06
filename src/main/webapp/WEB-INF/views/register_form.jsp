@@ -1,6 +1,9 @@
+
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="ISO-8859-1">
 <title>User Registration Form</title>
 <style type="text/css">
 	
@@ -60,7 +63,6 @@
 			<form:radiobutton path="gender" value="Female"/>Female
 			<form:errors path="gender" cssClass="error" />
 			</div>
-
 				
 			<div>
 				<div></div>
